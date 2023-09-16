@@ -1,0 +1,275 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  flex: 1;
+  height: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 320px 75px 200px;
+  gap: 30px;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: midnightblue;
+}
+
+.tile-image {
+  width: auto;
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.card {
+  width: auto;
+  text-align: justify;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.left {
+  float: right;
+}
+
+.right {
+  float: left;
+}
+
+.highlight_h1 {
+  color: midnightblue;
+}
+
+@media (min-width: 280px) and (max-width: 299px) {
+  .logo {
+    width: 130px;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .grid-container {
+    display: block;
+    font-size: 16px;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card-title {
+    font-size: 22px;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .logo {
+    width: 150px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 899px) {
+  .logo {
+    width: 180px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    font-size: 14px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 385px 200px 200px;
+    gap: 30px;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1010px) {
+  body {
+    min-height: 98vh;
+  }
+
+  .logo {
+    width: 220px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    font-size: 18px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 455px 250px 200px;
+    gap: 30px;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1011px) and (max-width: 1200px) {
+  body {
+    min-height: 98vh;
+  }
+
+  .logo {
+    width: 190px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    font-size: 18px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 490px 320px 200px;
+    gap: 30px;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1350px) {
+  body {
+    min-height: 98vh;
+  }
+
+  .logo {
+    width: 220px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 575px 380px 200px;
+    gap: 30px;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    display: inline;
+    object-fit: cover;
+  }
+}
